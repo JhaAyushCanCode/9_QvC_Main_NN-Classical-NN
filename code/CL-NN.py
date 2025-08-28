@@ -1,7 +1,7 @@
-# classical_nn_baseline.py
+
 """
-Chapter 5: Classical Neural Network (Apples-to-Apples Comparison)
-==================================================================
+Chapter 5: Classical Neural Network 
+
 
 A classical version of the MLC-QNN architecture for direct comparison with quantum models.
 This implementation matches the parameter count and architectural design of the quantum
@@ -618,4 +618,5 @@ def main():
     return final_results
 
 if __name__ == "__main__":
+
     main()
