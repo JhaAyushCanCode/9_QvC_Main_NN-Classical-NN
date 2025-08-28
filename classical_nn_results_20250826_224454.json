@@ -1,0 +1,31 @@
+{
+  "model_type": "Classical Neural Network (Quantum-Equivalent)",
+  "architecture": {
+    "bert_dim": 768,
+    "projection_dim": 12,
+    "n_layers": 3,
+    "hidden_dim": 256,
+    "num_labels": 28
+  },
+  "parameters": {
+    "total": 180648,
+    "trainable": 180648
+  },
+  "training_config": {
+    "batch_size": 64,
+    "learning_rate": 0.0001,
+    "max_epochs": 1000,
+    "actual_epochs": 1000,
+    "early_stopping_patience": 890
+  },
+  "performance": {
+    "test_macro_f1_default": 0.18915305692987244,
+    "test_micro_f1_default": 0.21248172694127776,
+    "test_macro_f1_optimized": 0.2739572530452539,
+    "test_micro_f1_optimized": 0.3351997013811124,
+    "best_val_macro_f1": 0.19743446871254658,
+    "threshold_improvement": 0.08480419611538148
+  },
+  "timestamp": "20250826_224454",
+  "seed": 42
+}
